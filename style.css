@@ -174,7 +174,8 @@
 }
 
 .clm-entry-keys code {
-    background: var(--SmartThemeBorderColor);
+    background: transparent;
+    border: 1px solid var(--SmartThemeBorderColor);
     padding: 1px 5px;
     border-radius: 3px;
     margin-right: 3px;
@@ -188,7 +189,8 @@
 }
 
 .clm-entry-content {
-    background: var(--black50a, rgba(0,0,0,0.2));
+    background: transparent;
+    border: 1px solid var(--SmartThemeBorderColor);
     border-radius: 4px;
     padding: 6px 8px;
     font-size: 0.82em;
@@ -209,7 +211,7 @@
     position: absolute;
     bottom: 0; left: 0; right: 0;
     height: 25px;
-    background: linear-gradient(to bottom, transparent, var(--black50a, rgba(0,0,0,0.45)));
+    background: linear-gradient(to bottom, transparent, var(--SmartThemeBlurTintColor));
     pointer-events: none;
 }
 
